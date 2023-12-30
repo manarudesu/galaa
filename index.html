@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>To Galaa</title>
+  <link rel="icon" type="image/x-icon" href="/images/fly.png">
+
+  <link rel='stylesheet'
+    href='https://fonts.googleapis.com/css2?family=Short+Stack&amp;family=Homemade+Apple&amp;display=swap'>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="paper" id="yes">
+    <p class="p1">
+      <img src="https://media.giphy.com/media/xUySTUZ8A2RJBQitEc/giphy.gif" alt="Cool GIF">
+    </p>
+  </div>
+
+  <div class="paper" id="props">
+    <p class="prop">
+      " Can I be ur sonin ah? "
+    <br>
+    <button id="yes-button" onclick="showProposalMessage()"> Tegiidaa </button>
+    <button id="no-button" onclick="animateNo()"> Uguidee </button>
+    <p id="proposal-message"></p>
+    </p>
+
+  </div>
+
+
+  <div class="paper">
+    <p class="p1">
+      Ymr c uyd hajuud n bj chadnaaa,
+      muuhaigaar helvel namaig ashigla 
+      gvel ter hunee orhij chadahuu ❔
+    </p>
+  </div>
+  
+  <div class="paper">
+    <p class="p1">
+      Za yg daraagiin huudsn deer bgaa hha ⏭️
+    </p>
+  </div>
+
+  <div class="paper">
+        <p class="p1">
+          🎞️ Urgeljleliig ori goos ... 🎞️
+        </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      Za shuluuhan heleh gsnee heliiii gvel bnshde
+    </p>
+  </div>
+
+  
+  <div class="paper heart">
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      🥺 Umnu helsenchlen bi hulchgar heterhii 
+      hulchgar hun gdgee odoo oilgojiinooo. o(￣┰￣*)ゞ 
+      2 songoltiin dund chmaig havchuulaaal, 
+      ymr ih daramt uusgeed bgaagaa mdejgaa hedii c uuchlaaraii 🙇🙇
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      Ungursn onoo dugnej uzhgeed suuhd 
+      onii ehend blsn uil yvdluud ygd c um 
+      bdogdhguesoon. Bodlooor duuuren ci 🐤🐤🐤
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      😁 Cmaig garnaas barih uyd, 
+      yrn biyd hurehed, uuduus huurhun (❁´◡`❁)
+      ineehed dogdoldog sandardag 
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      🫂 Chnii hajuud bhda l aimr taivan hun bolchihdg
+      Uur Sanaa zovoh zuil bhgu met l
+      Ter uglu uruundu orj ireed genet l 
+      jaahan tiirchisn utasniiha bairshliig harj maraad hha 🫂
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      Uuriigu uurchilhiig husdq bi ygad c um 
+      chmaas shuumj avaad ter zangaa zasahgeed 
+      hcheegeed bgaa hha. Surhii nuluuljgaan shuu
+      ε=ε=ε=(~￣▽￣)~ 
+    </p>
+  </div>
+
+  <div class="paper red">
+    <p class="p1"> 
+      😍 Chiol on garsnii daraa unshjgaa bh tiimaaa. 
+      Still Hooson medremjtee bsaar ≡(▔﹏▔)≡ l bgaaa gsn ugshd bi hha 😍
+    </p>
+  </div>
+
+  <div class="paper red">
+    <p class="p1"> 
+      Yun turuund bayrllaaa .
+      New year new me gj bdsn c ter cn zuer l ug 
+      um bnooo hhha 😂 Yaaag ene Hooson medremjteeege 
+      l on gargah bolltoii ⌚
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      <span style="color: red !important;">❤️</span>
+      Za hii egduu mn ✍️(◔◡◔) Ghde hooooow cute baih
+      <span style="color: red !important;">❤️</span>
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      💌 Jinjiliin mend 🎄 2024 onii ehnii zahia
+      Ehnii beleg n bgaa bhaaa 💌
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      Zia ene tsaasnuudiig hudulguurei 
+      <br>
+        Jich : Kyrilleer bicii gesen font ni boldgue
+      <br>
+      (ノへ￣、)
+    </p>
+  </div>
+  
+  <script src="./mobile.js"></script>
+
+</body>
+
+<script>
+  function showProposalMessage() {
+    // document.getElementById("proposal-message").style.display = "block";
+    // document.getElementById("yes-button").style.display = "none";
+    // document.getElementById("no-button").style.display = "none";
+    document.getElementById("yes").style.display = "block";
+    document.getElementById("props").style.display = "none";
+  }
+
+  function animateNo() {
+    var messages = [
+      "Uu darcij bgamu, anduursan bh te?",
+      "Dahiad uzdee",
+      "Ene yg gatscihaj",
+      "Ayayayya ",
+      "Tegiida deer ni daraad uzeh uu?"
+    ];
+
+    var randomMessage = messages[Math.floor(Math.random() * messages.length)];
+
+    alert(randomMessage);
+  }
+</script>
+
+</html>
